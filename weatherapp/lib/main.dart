@@ -24,7 +24,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final WeatherFactory _wf = WeatherFactory("d1ecc451d6d385f5f275b9708e24876d");
+  final WeatherFactory _wf = WeatherFactory(" YOUR API KEY ");
   Weather? _weather;
   TextEditingController _cityController = TextEditingController();
 
